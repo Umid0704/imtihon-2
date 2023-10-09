@@ -1,0 +1,307 @@
+.container .header .header__nav .header__nav__link .nav__btn-2, .container .header .header__nav .header__nav__link .nav__btn-1 {
+  padding: 10px 23px;
+  border-radius: 5px;
+  font-size: 16px;
+  font-weight: 600;
+  color: #fff;
+}
+
+.container {
+  padding: 0 140px;
+}
+.container .header .header__nav {
+  padding: 20px 0;
+  display: flex;
+  justify-content: space-between;
+}
+.container .header .header__nav .header__nav_logo {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+.container .header .header__nav .header__nav_logo p {
+  font-size: 30px;
+  font-weight: 700;
+}
+.container .header .header__nav .header__nav__link {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+.container .header .header__nav .header__nav__link .fa-bars {
+  color: #fff;
+  font-size: 20px;
+  display: none;
+}
+.container .header .header__nav .header__nav__link ul {
+  display: flex;
+  gap: 15px;
+}
+.container .header .header__nav .header__nav__link ul li a {
+  font-size: 16px;
+  font-weight: 400;
+}
+.container .header .header__nav .header__nav__link .nav__btn-1 {
+  background: transparent;
+  border: 1px solid #bcd0e5;
+}
+.container .header .header__nav .header__nav__link .nav__btn-2 {
+  background: #02897a;
+  border: none;
+}
+.container .header .header__items {
+  margin-top: 50px;
+}
+.container .header .header__items h3 {
+  font-size: 24px;
+  font-weight: 600;
+  color: #fff;
+  text-align: center;
+}
+.container .header .header__items h2 {
+  font-size: 40px;
+  font-weight: 700;
+  text-align: center;
+}
+.container .header .header__items p {
+  text-align: center;
+  font-weight: 500;
+}
+.container .header .header__items .header__items__boxs {
+  display: flex;
+  margin-top: 45px;
+  gap: 50px;
+  justify-content: space-between;
+}
+.container .header .header__items .header__items__boxs .header__items__box-1,
+.container .header .header__items .header__items__boxs .header__items__box-3 {
+  background: #fff;
+  padding: 24px 54px;
+  display: flex;
+  gap: 16px;
+  border-radius: 5px;
+  flex-direction: column;
+}
+.container .header .header__items .header__items__boxs .header__items__box-1 p,
+.container .header .header__items .header__items__boxs .header__items__box-1 h3,
+.container .header .header__items .header__items__boxs .header__items__box-1 h2,
+.container .header .header__items .header__items__boxs .header__items__box-3 p,
+.container .header .header__items .header__items__boxs .header__items__box-3 h3,
+.container .header .header__items .header__items__boxs .header__items__box-3 h2 {
+  color: #22343d;
+  font-size: 22px;
+  font-weight: 500;
+}
+.container .header .header__items .header__items__boxs .header__items__box-1 span,
+.container .header .header__items .header__items__boxs .header__items__box-3 span {
+  color: gray;
+}
+.container .header .header__items .header__items__boxs .header__items__box-1 .box,
+.container .header .header__items .header__items__boxs .header__items__box-3 .box {
+  display: flex;
+  align-items: center;
+}
+.container .header .header__items .header__items__boxs .header__items__box-1 .box h2,
+.container .header .header__items .header__items__boxs .header__items__box-3 .box h2 {
+  font-size: 76px;
+  color: #02897a;
+  font-weight: 24px;
+  font-weight: 700;
+}
+.container .header .header__items .header__items__boxs .header__items__box-1 .box div h3,
+.container .header .header__items .header__items__boxs .header__items__box-3 .box div h3 {
+  color: #02897a;
+  font-size: 24px;
+}
+.container .header .header__items .header__items__boxs .header__items__box-1 button,
+.container .header .header__items .header__items__boxs .header__items__box-3 button {
+  background: #02897a;
+  font-size: 18px;
+  color: #fff;
+  font-weight: 600;
+  border: none;
+  padding: 11px 19px;
+  border-radius: 8px;
+}
+.container .header .header__items .header__items__boxs .header__items__box-2 {
+  background: #02897a;
+  padding: 24px 54px;
+  display: flex;
+  gap: 16px;
+  border-radius: 5px;
+  flex-direction: column;
+}
+.container .header .header__items .header__items__boxs .header__items__box-2 p,
+.container .header .header__items .header__items__boxs .header__items__box-2 h3,
+.container .header .header__items .header__items__boxs .header__items__box-2 h2 {
+  color: #fff;
+  font-size: 22px;
+  font-weight: 500;
+}
+.container .header .header__items .header__items__boxs .header__items__box-2 span {
+  color: gray;
+}
+.container .header .header__items .header__items__boxs .header__items__box-2 .box {
+  display: flex;
+  align-items: center;
+}
+.container .header .header__items .header__items__boxs .header__items__box-2 .box h2 {
+  font-size: 76px;
+  color: #ffffff;
+  font-weight: 24px;
+  font-weight: 700;
+}
+.container .header .header__items .header__items__boxs .header__items__box-2 .box div h3 {
+  color: #ffffff;
+  font-size: 24px;
+}
+.container .header .header__items .header__items__boxs .header__items__box-2 button {
+  background: white;
+  font-size: 18px;
+  color: #02897a;
+  font-weight: 600;
+  border: none;
+  padding: 11px 19px;
+  border-radius: 8px;
+}
+
+@media (min-width: 990px) and (max-width: 1200px) {
+  .container {
+    padding: 0 90px;
+  }
+  .container .header .header__items .header__items__boxs {
+    gap: 12px;
+  }
+  .container .header .header__items .header__items__boxs .header__items__box-1,
+  .container .header .header__items .header__items__boxs .header__items__box-2,
+  .container .header .header__items .header__items__boxs .header__items__box-3 {
+    padding: 20px 45px;
+    gap: 10px;
+  }
+}
+@media (min-width: 770px) and (max-width: 989px) {
+  .container {
+    padding: 0 60px;
+  }
+  .container .header .header__nav .header__nav__link ul,
+  .container .header .header__nav .header__nav__link .nav__btn-1,
+  .container .header .header__nav .header__nav__link .nav__btn-2,
+  .container .header .header__nav .header__nav__link img {
+    display: none;
+  }
+  .container .header .header__nav .header__nav__link .fa-bars {
+    display: block;
+  }
+  .container .header .header__items {
+    gap: 3px;
+  }
+  .container .header .header__items .header__items__boxs {
+    gap: 10px;
+  }
+  .container .header .header__items .header__items__boxs .header__items__box-1, .container .header .header__items .header__items__boxs .header__items__box-2, .container .header .header__items .header__items__boxs .header__items__box-3 {
+    padding: 15px 30px;
+    gap: 8px;
+  }
+  .container .header .header__items .header__items__boxs .header__items__box-1 p, .container .header .header__items .header__items__boxs .header__items__box-1 h2, .container .header .header__items .header__items__boxs .header__items__box-1 h3, .container .header .header__items .header__items__boxs .header__items__box-2 p, .container .header .header__items .header__items__boxs .header__items__box-2 h2, .container .header .header__items .header__items__boxs .header__items__box-2 h3, .container .header .header__items .header__items__boxs .header__items__box-3 p, .container .header .header__items .header__items__boxs .header__items__box-3 h2, .container .header .header__items .header__items__boxs .header__items__box-3 h3 {
+    font-size: 15px;
+  }
+  .container .header .header__items .header__items__boxs .header__items__box-1 button, .container .header .header__items .header__items__boxs .header__items__box-2 button, .container .header .header__items .header__items__boxs .header__items__box-3 button {
+    font-size: 13px;
+    padding: 8px 15px;
+  }
+}
+@media (min-width: 447px) and (max-width: 769px) {
+  .container {
+    padding: 0 30px;
+  }
+  .container .header .header__nav .header__nav__link ul,
+  .container .header .header__nav .header__nav__link .nav__btn-1,
+  .container .header .header__nav .header__nav__link .nav__btn-2,
+  .container .header .header__nav .header__nav__link img {
+    display: none;
+  }
+  .container .header .header__nav .header__nav__link .fa-bars {
+    display: block;
+  }
+  .container .header .header__items {
+    gap: 3px;
+  }
+  .container .header .header__items .header__items__boxs {
+    gap: 10px;
+  }
+  .container .header .header__items .header__items__boxs .header__items__box-1, .container .header .header__items .header__items__boxs .header__items__box-2, .container .header .header__items .header__items__boxs .header__items__box-3 {
+    padding: 15px 30px;
+    gap: 8px;
+  }
+  .container .header .header__items .header__items__boxs .header__items__box-1 p, .container .header .header__items .header__items__boxs .header__items__box-1 h2, .container .header .header__items .header__items__boxs .header__items__box-1 h3, .container .header .header__items .header__items__boxs .header__items__box-1 span, .container .header .header__items .header__items__boxs .header__items__box-2 p, .container .header .header__items .header__items__boxs .header__items__box-2 h2, .container .header .header__items .header__items__boxs .header__items__box-2 h3, .container .header .header__items .header__items__boxs .header__items__box-2 span, .container .header .header__items .header__items__boxs .header__items__box-3 p, .container .header .header__items .header__items__boxs .header__items__box-3 h2, .container .header .header__items .header__items__boxs .header__items__box-3 h3, .container .header .header__items .header__items__boxs .header__items__box-3 span {
+    font-size: 5px;
+  }
+  .container .header .header__items .header__items__boxs .header__items__box-1 .box h2, .container .header .header__items .header__items__boxs .header__items__box-2 .box h2, .container .header .header__items .header__items__boxs .header__items__box-3 .box h2 {
+    font-size: 30px;
+  }
+  .container .header .header__items .header__items__boxs .header__items__box-1 .box div h3, .container .header .header__items .header__items__boxs .header__items__box-2 .box div h3, .container .header .header__items .header__items__boxs .header__items__box-3 .box div h3 {
+    font-size: 14px;
+  }
+  .container .header .header__items .header__items__boxs .header__items__box-1 button, .container .header .header__items .header__items__boxs .header__items__box-2 button, .container .header .header__items .header__items__boxs .header__items__box-3 button {
+    font-size: 8px;
+    padding: 5px 10px;
+  }
+}
+@media (max-width: 447px) {
+  .container {
+    padding: 0 10px;
+  }
+  .container .header .header__nav {
+    padding: 10px 0;
+  }
+  .container .header .header__nav .header__nav_logo p {
+    font-size: 25px;
+  }
+  .container .header .header__nav .header__nav_logo img {
+    width: 30px;
+  }
+  .container .header .header__nav .header__nav__link ul,
+  .container .header .header__nav .header__nav__link .nav__btn-1,
+  .container .header .header__nav .header__nav__link .nav__btn-2,
+  .container .header .header__nav .header__nav__link img {
+    display: none;
+  }
+  .container .header .header__nav .header__nav__link .fa-bars {
+    display: block;
+  }
+  .container .header .header__items {
+    margin-top: 10px;
+    gap: 3px;
+  }
+  .container .header .header__items h2 {
+    font-size: 18px;
+    font-weight: 600;
+  }
+  .container .header .header__items h3 {
+    font-size: 15px;
+  }
+  .container .header .header__items p {
+    font-size: 10px;
+  }
+  .container .header .header__items .header__items__boxs {
+    gap: 10px;
+    margin-top: 15px;
+  }
+  .container .header .header__items .header__items__boxs .header__items__box-1, .container .header .header__items .header__items__boxs .header__items__box-2, .container .header .header__items .header__items__boxs .header__items__box-3 {
+    padding: 10px 15px;
+    gap: 3px;
+  }
+  .container .header .header__items .header__items__boxs .header__items__box-1 p, .container .header .header__items .header__items__boxs .header__items__box-1 h2, .container .header .header__items .header__items__boxs .header__items__box-1 h3, .container .header .header__items .header__items__boxs .header__items__box-1 span, .container .header .header__items .header__items__boxs .header__items__box-2 p, .container .header .header__items .header__items__boxs .header__items__box-2 h2, .container .header .header__items .header__items__boxs .header__items__box-2 h3, .container .header .header__items .header__items__boxs .header__items__box-2 span, .container .header .header__items .header__items__boxs .header__items__box-3 p, .container .header .header__items .header__items__boxs .header__items__box-3 h2, .container .header .header__items .header__items__boxs .header__items__box-3 h3, .container .header .header__items .header__items__boxs .header__items__box-3 span {
+    font-size: 5px;
+  }
+  .container .header .header__items .header__items__boxs .header__items__box-1 .box h2, .container .header .header__items .header__items__boxs .header__items__box-2 .box h2, .container .header .header__items .header__items__boxs .header__items__box-3 .box h2 {
+    font-size: 20px;
+  }
+  .container .header .header__items .header__items__boxs .header__items__box-1 .box div h3, .container .header .header__items .header__items__boxs .header__items__box-2 .box div h3, .container .header .header__items .header__items__boxs .header__items__box-3 .box div h3 {
+    font-size: 9px;
+  }
+  .container .header .header__items .header__items__boxs .header__items__box-1 button, .container .header .header__items .header__items__boxs .header__items__box-2 button, .container .header .header__items .header__items__boxs .header__items__box-3 button {
+    font-size: 7px;
+    padding: 5px 10px;
+  }
+}/*# sourceMappingURL=header.css.map */
